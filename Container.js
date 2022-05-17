@@ -13,6 +13,7 @@ export default function Container() {
     setResult(" = " + executeStringNumber);
   }
 
+  // delete resulst
   function deleteByNumber() {
     setKeys(keys.slice(0, -1));
   }
